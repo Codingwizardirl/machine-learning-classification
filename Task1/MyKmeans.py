@@ -1,5 +1,5 @@
 import numpy as np
-
+import scipy as sp
 
 def MyKmeans(X,k,initialCentres,maxIter = 500):
 
@@ -38,7 +38,7 @@ def MyKmeans(X,k,initialCentres,maxIter = 500):
             if(np.sum(idx == c) == 0):
                 print("WARNING: Empty cluster")
             else:
-                C[c] = MyMean( X[idx == c], 0)
+                C[c] = MyMean(X[idx == c], 0)
 
         if( np.sum(np.abs(idx_previous - idx)) == 0):
             break
@@ -50,7 +50,7 @@ def MyKmeans(X,k,initialCentres,maxIter = 500):
 
 
 def square_dist(U, v):
-    sq_dist = ((U-v)**2).sum(axis=1).T
+    sq_dist = np.sum(((U-v)**2), axis=1).T
     return sq_dist
 
 def MyMean(U, ax = None):
@@ -62,10 +62,9 @@ def sumSquareError(U, clusters, idx):
     sse = 0
     N = U.size
     for c in range(clusters.shape[0]):
-        # f1 = np.linalg.norm((U[idx == c] - clusters[c]))
-        # f2 = np.sqrt(np.sum((U[idx == c] - clusters[c])**2))
-        # print ("YES" if f1 == f2 else f1 - f2)
+        f1 = np.linalg.norm((U[idx == c] - clusters[c]))
+        f2 = np.sqrt(np.sum((U[idx == c] - clusters[c])**2))
+        print ("YES" if f1 == f2 else f1 - f2)
         sse += np.sqrt(np.sum((U[idx == c] - clusters[c])**2))
     sse /= N
-    print sse
     return sse
