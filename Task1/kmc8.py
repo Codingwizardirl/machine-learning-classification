@@ -1,6 +1,6 @@
 import numpy as np
 import scipy.io
-import pandas as pd
+
 from MyKmeans import MyKmeans
 from visualize_and_preprocess import train_x, train_y
 from MyConfusionMatrix import MyConfusionMatrix
