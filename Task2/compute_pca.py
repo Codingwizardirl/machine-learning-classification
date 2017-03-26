@@ -1,4 +1,5 @@
 import numpy as np
+import scipy.io
 from Task1.MyKmeans import my_mean
 from Task1.visualize_and_preprocess import train_x
 
@@ -18,9 +19,19 @@ def compute_pca(X):
     EVals = None
 
     covariance_matrix = my_cov(X)
-    cv2 = np.cov(X,rowvar=False)
-    print covariance_matrix
-    print cv2
+    (EVals, EVecs) = np.linalg.eig(covariance_matrix)
+
+    # Sort the EVals and EVects in decreasing order
+    sorted_order = np.argsort(EVals)
+    sorted_order = sorted_order[::-1]
+    EVals = EVals[sorted_order]
+    EVecs = EVecs[...,sorted_order]
+
+    # Check for first negative element of vectors
+    for i in range(X.shape[1]):
+        if EVecs[0,i] < 0:
+            EVecs [0,i] *= -1
+
     return EVecs, EVals
 
 def my_cov(X):
@@ -36,5 +47,6 @@ def my_cov(X):
 
     return covariance_matrix
 
-x = np.array([[2.5, 2], [0.5, 0.7], [2.2, 2.4], [1.9,2.5],[3.1,3.9],[2.3,2.7],[2,1.8],[1.5,1.6],[1, 1.3]])
-compute_pca(x)
+EVecs, EVals = compute_pca(train_x)
+scipy.io.savemat('evecs.mat', {'Eigenvectors':EVecs})
+scipy.io.savemat('evals.mat', {'Eigenvalues':EVals})
