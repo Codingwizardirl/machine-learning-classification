@@ -38,7 +38,7 @@ def MyKmeans(X,k,initialCentres,maxIter = 500):
             if(np.sum(idx == c) == 0):
                 print("WARNING: Empty cluster")
             else:
-                C[c] = MyMean(X[idx == c], 0)
+                C[c] = my_mean(X[idx == c], 0)
 
         if( np.sum(np.abs(idx_previous - idx)) == 0):
             break
@@ -53,10 +53,10 @@ def square_dist(U, v):
     sq_dist = np.sum(((U-v)**2), axis=1).T
     return sq_dist
 
-def MyMean(U, ax = None):
+def my_mean(U, ax = None):
     # Returns mean column vector of a given matrix U
-    n = U.shape[0]
-    return np.sum(U, axis=ax)/n
+    N = U.shape[0]
+    return (1.0/N) * np.sum(U, axis=ax)
 
 def sumSquareError(U, clusters, idx):
     sse = 0
