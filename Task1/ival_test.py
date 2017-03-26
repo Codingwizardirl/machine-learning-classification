@@ -10,6 +10,7 @@ SSE_List = []
 for i in range(NUMBER_OF_TESTS):
     centres = np.random.rand(k, length)
     C, idx, SSE = MyKmeans(train_x, k, centres)
-    SSE_List.append(SSE)
+    sse = SSE[SSE.shape[0] - 1]
+    SSE_List.append(sse)
 
 np.savetxt('test.out', SSE_List, delimiter=',')
