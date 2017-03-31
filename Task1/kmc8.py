@@ -1,6 +1,6 @@
 import numpy as np
 import scipy.io
-
+import pandas as pd
 from MyKmeans import MyKmeans
 from visualize_and_preprocess import train_x, train_y
 from MyConfusionMatrix import MyConfusionMatrix
@@ -19,3 +19,8 @@ scipy.io.savemat('result_C.mat', {'centres':C})
 confusion_matrix = MyConfusionMatrix(train_y, idx)
 scipy.io.savemat('result_confusion_matrix.mat', {'confusion_matrix': confusion_matrix})
 
+# Pandas confusion matrix
+# y_actu = pd.Series(train_y.ravel(), name='Actual')
+# y_pred = pd.Series(idx.ravel(), name='Predicted')
+# df_confusion = pd.crosstab(y_actu, y_pred)
+# print df_confusion
