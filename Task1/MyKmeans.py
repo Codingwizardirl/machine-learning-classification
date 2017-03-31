@@ -1,5 +1,4 @@
 import numpy as np
-import scipy as sp
 
 def MyKmeans(X,k,initialCentres,maxIter = 500):
 
@@ -22,7 +21,6 @@ def MyKmeans(X,k,initialCentres,maxIter = 500):
     D = np.zeros((k, N))
     C = initialCentres
     idx_previous = np.zeros((1, N))
-    idx = None
     SSE = []
 
     for i in range(maxIter):

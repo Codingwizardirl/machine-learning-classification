@@ -1,7 +1,5 @@
 import numpy as np
-import scipy.io
 from Task1.MyKmeans import my_mean
-from Task1.visualize_and_preprocess import train_x
 
 def compute_pca(X):
 
@@ -43,10 +41,6 @@ def my_cov(X):
     N = X.shape[0]
     X_mean = my_mean(X, 0)
     X = X - X_mean
-    covariance_matrix = (1.0/(N-1)) * np.dot(X.T, X)
+    covariance_matrix = (1.0/N) * np.dot(X.T, X)
 
     return covariance_matrix
-
-EVecs, EVals = compute_pca(train_x)
-scipy.io.savemat('evecs.mat', {'Eigenvectors':EVecs})
-scipy.io.savemat('evals.mat', {'Eigenvalues':EVals})

@@ -12,6 +12,7 @@ def MyConfusionMatrix(y_actual, y_predicted):
         raise ValueError("Vectors supplied must be of same length")
 
     # Minimum and maximum values in order to know the size of the confusion matrix and how to access it
+    # Complication comes from classes indexing beginning with 1 and data indexing with 0
     max_actual = np.max(y_actual)
     max_predicted = np.max(y_predicted)
     min_actual = np.min(y_actual)
