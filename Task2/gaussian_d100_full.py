@@ -22,7 +22,7 @@ def gaussianClassifier(mu, covar, X):
     inverse_cov = np.linalg.inv(covar)
     mu = mu.reshape((1,d))
 
-    X = X - np.ones((n,1)).dot(mu)
+    X = X - mu
     fact = np.sum((X.dot(inverse_cov)*X), 1)
 
     p = np.exp(-0.5*fact)
@@ -41,27 +41,33 @@ def trainAndTest(train_x, train_y, test_x, test_y, dimensionality):
     :return: Confusion matrix of the data
     '''
 
+    # Reduce dimensionality and center of training data using the mean
     EVecs = np.loadtxt('allEvecs.out')
     EVecs = EVecs[:,0:dimensionality]
     X = train_x.dot(EVecs)
     covar = my_cov(X)
     mu = my_mean(X, 0)
+    X = X - mu
 
+    # Variables to hold the means, covariance matrices and their determinants
     classes = 5
     mu_hat = np.zeros((classes,dimensionality))
     sigma_hat = np.zeros((dimensionality,dimensionality,classes))
     determinants = np.zeros(classes)
 
+    # Populate the variables above
     for k in range(classes):
         idx = np.ravel((train_y-1) == k)
         mu_hat[k,:] = my_mean(X[idx,:], 0)
         sigma_hat[:,:,k] = my_cov(X[idx,:])
         determinants[k] = np.linalg.det(sigma_hat[:,:,k])
 
-
+    # Reduce dimensionality of test data and center it using the training mean
     T = test_x.dot(EVecs)
+    T = T - mu
     probabilities = np.zeros((classes, test_y.shape[0]))
 
+    # Find posterior probabilities for every class
     for k in range(classes):
         probabilities[k,...] = gaussianClassifier(mu_hat[k,:], sigma_hat[:,:,k], T)
 
@@ -72,6 +78,6 @@ def trainAndTest(train_x, train_y, test_x, test_y, dimensionality):
 
 
 confusion_matrix = trainAndTest(train_x,train_y, test_x, test_y, 100)
-# scipy.io.savemat('confmat_d100.mat', {'Confusion Matrix': confusion_matrix})
+scipy.io.savemat('confmat_d100.mat', {'Confusion Matrix': confusion_matrix})
 classification_rate = np.diag(confusion_matrix / confusion_matrix.sum(axis =0))
 

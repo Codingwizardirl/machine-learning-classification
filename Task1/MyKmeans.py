@@ -63,3 +63,4 @@ def sumSquareError(U, clusters, idx):
         sse += np.sum((U[idx == c] - clusters[c])**2)
     sse /= N
     return sse
+  # sse += np.sum(np.sqrt(np.sum((U[idx == c] - clusters[c])**2,axis=1)))
