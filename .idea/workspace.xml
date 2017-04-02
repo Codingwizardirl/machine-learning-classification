@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca5ede85-7fc1-406f-a00c-4f2b61831387" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/hNN_A.py" afterPath="$PROJECT_DIR$/Task3/hNN_A.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/hNN_A_weights.txt" afterPath="$PROJECT_DIR$/Task3/hNN_A_weights.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/hNeuron.py" afterPath="$PROJECT_DIR$/Task3/hNeuron.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" afterPath="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
     </list>
     <ignored path="cw2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +21,7 @@
     <SUITE FILE_PATH="coverage/cw2$gaussian_d100_full.coverage" NAME="gaussian_d100_full Coverage Results" MODIFIED="1491146963299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task2" />
     <SUITE FILE_PATH="coverage/cw2$MyConfusionMatrix.coverage" NAME="MyConfusionMatrix Coverage Results" MODIFIED="1490480884684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task1" />
     <SUITE FILE_PATH="coverage/cw2$kmc8.coverage" NAME="kmc8 Coverage Results" MODIFIED="1491094917599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task1" />
-    <SUITE FILE_PATH="coverage/cw2$plot_regions_hNN_A.coverage" NAME="plot_regions_hNN_A Coverage Results" MODIFIED="1491169501456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task3" />
+    <SUITE FILE_PATH="coverage/cw2$plot_regions_hNN_A.coverage" NAME="plot_regions_hNN_A Coverage Results" MODIFIED="1491176425125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task3" />
     <SUITE FILE_PATH="coverage/cw2$compute_pca.coverage" NAME="compute_pca Coverage Results" MODIFIED="1490882447368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task2" />
     <SUITE FILE_PATH="coverage/cw2$result_pca.coverage" NAME="result_pca Coverage Results" MODIFIED="1491134814712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task2" />
   </component>
@@ -50,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hNN_A_weights.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hNN_A_weights.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task3/hNN_A_weights.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
@@ -60,14 +56,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_regions_hNN_A.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plot_regions_hNN_A.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="541">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1491169415391" expanded="true" signature="380:419" ph="..." />
+                <marker date="1491176424371" expanded="true" signature="687:1058" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,9 +112,9 @@
         <option value="$PROJECT_DIR$/Task2/compute_pca.py" />
         <option value="$PROJECT_DIR$/Task2/gaussian_d100_full.py" />
         <option value="$PROJECT_DIR$/Task3/hNeuron.py" />
-        <option value="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
         <option value="$PROJECT_DIR$/Task3/hNN_A.py" />
         <option value="$PROJECT_DIR$/Task3/hNN_A_weights.txt" />
+        <option value="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
       </list>
     </option>
   </component>
@@ -617,21 +613,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Task2/compute_pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task1/MyConfusionMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualize_and_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -979,21 +960,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1491169415391" expanded="true" signature="380:419" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task3/hNeuron.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/hNN_A_weights.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1008,11 +986,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/hNN_A_weights.txt">
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/matplotlib/contour.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="406">
+          <caret line="1185" column="0" lean-forward="false" selection-start-line="1185" selection-start-column="0" selection-end-line="1185" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1491176424371" expanded="true" signature="687:1058" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
