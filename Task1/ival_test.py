@@ -14,11 +14,11 @@ for i in range(NUMBER_OF_TESTS):
     sse = SSE[SSE.shape[0] - 1]
     SSE_List.append(sse)
 
-np.savetxt('test.out', SSE_List, delimiter=',')
+np.savetxt('SSE_List.out', SSE_List)
 
-SSE_List = np.loadtxt('test.out')
-
-plt.plot(SSE_List)
-plt.xlabel('Iteration')
-plt.ylabel('Square Sum Error Value')
-plt.show()
+# SSE_List = np.loadtxt('SSE_List.out')
+#
+# plt.plot(SSE_List)
+# plt.xlabel('Iteration')
+# plt.ylabel('Square Sum Error Value')
+# plt.show()

@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 import scipy.io
 import pandas as pd
 from MyKmeans import MyKmeans
@@ -13,14 +14,12 @@ centres = train_x[0:k]
 C, idx, SSE = MyKmeans(train_x, k, centres)
 sse = SSE[SSE.shape[0]-1]
 
+np.savetxt('SSE.out', SSE)
+SSE = np.loadtxt('SSE.out')
+
 scipy.io.savemat('result_C.mat', {'centres':C})
 
 # Calculate the confusion matrix
 confusion_matrix = MyConfusionMatrix(train_y, idx)
 scipy.io.savemat('result_confusion_matrix.mat', {'confusion_matrix': confusion_matrix})
 
-# Pandas confusion matrix
-# y_actu = pd.Series(train_y.ravel(), name='Actual')
-# y_pred = pd.Series(idx.ravel(), name='Predicted')
-# df_confusion = pd.crosstab(y_actu, y_pred)
-# print df_confusion

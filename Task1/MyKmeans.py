@@ -28,7 +28,7 @@ def MyKmeans(X,k,initialCentres,maxIter = 500):
              D[c] = square_dist(X, C[c])
 
         idx = np.argmin(D, axis=0)
-        # Ds = D.min(0)
+        sse = sumSquareError(X, C, idx)
         SSE.append(sumSquareError(X, C, idx))
 
      #    Update clusters
@@ -58,8 +58,8 @@ def my_mean(U, ax = None):
 
 def sumSquareError(U, clusters, idx):
     sse = 0
-    N = U.size
+    N = U.shape[0]
     for c in range(clusters.shape[0]):
-        sse += np.sqrt(np.sum((U[idx == c] - clusters[c])**2))
+        sse += np.sum((U[idx == c] - clusters[c])**2)
     sse /= N
     return sse
