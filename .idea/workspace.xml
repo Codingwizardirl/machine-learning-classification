@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca5ede85-7fc1-406f-a00c-4f2b61831387" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" afterPath="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/hNN_A.py" afterPath="$PROJECT_DIR$/Task3/hNN_A.py" />
     </list>
     <ignored path="cw2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +39,41 @@
       <file leaf-file-name="hNN_A.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task3/hNN_A.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="851">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task3_data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task3/task3_data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hNN_AB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task3/hNN_AB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_regions_hNN_A.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plot_regions_hNN_A.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="541">
@@ -112,9 +144,11 @@
         <option value="$PROJECT_DIR$/Task2/compute_pca.py" />
         <option value="$PROJECT_DIR$/Task2/gaussian_d100_full.py" />
         <option value="$PROJECT_DIR$/Task3/hNeuron.py" />
-        <option value="$PROJECT_DIR$/Task3/hNN_A.py" />
         <option value="$PROJECT_DIR$/Task3/hNN_A_weights.txt" />
         <option value="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
+        <option value="$PROJECT_DIR$/Task3/hNN_AB.py" />
+        <option value="$PROJECT_DIR$/Task3/hNN_A.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -613,13 +647,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/visualize_and_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task1/ival_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -836,14 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/hNN_AB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task3/sNeuron.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -929,14 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/task3_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task2/allEvecs.out">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="444">
@@ -976,16 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/hNN_A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/matplotlib/contour.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1010,6 +1011,40 @@
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1491176424371" expanded="true" signature="687:1058" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/task3_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/hNN_AB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/hNN_A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
