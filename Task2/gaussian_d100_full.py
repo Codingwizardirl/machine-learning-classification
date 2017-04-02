@@ -44,10 +44,11 @@ def trainAndTest(train_x, train_y, test_x, test_y, dimensionality):
     # Reduce dimensionality and center of training data using the mean
     EVecs = np.loadtxt('allEvecs.out')
     EVecs = EVecs[:,0:dimensionality]
-    X = train_x.dot(EVecs)
+    mu = my_mean(train_x, 0)
+    X = train_x - mu
+    X = X.dot(EVecs)
     covar = my_cov(X)
-    mu = my_mean(X, 0)
-    X = X - mu
+
 
     # Variables to hold the means, covariance matrices and their determinants
     classes = 5
@@ -63,13 +64,13 @@ def trainAndTest(train_x, train_y, test_x, test_y, dimensionality):
         determinants[k] = np.linalg.det(sigma_hat[:,:,k])
 
     # Reduce dimensionality of test data and center it using the training mean
-    T = test_x.dot(EVecs)
-    T = T - mu
+    T = test_x - mu
+    T = T.dot(EVecs)
     probabilities = np.zeros((classes, test_y.shape[0]))
 
     # Find posterior probabilities for every class
     for k in range(classes):
-        probabilities[k,...] = gaussianClassifier(mu_hat[k,:], sigma_hat[:,:,k], T)
+        probabilities[k,:] = gaussianClassifier(mu_hat[k,:], sigma_hat[:,:,k], T)
 
     # Find predicted class labels for the test data and correct it so it starts from 1
     labels_predicted = np.argmax(probabilities,axis=0) + 1
