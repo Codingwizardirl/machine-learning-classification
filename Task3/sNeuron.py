@@ -7,6 +7,6 @@ def sNeuron(W,X):
     #  Y: output vector of N-by-1
     bias = W[0]
     W = np.delete(W, 0)
-    a = W.T.dot(X) + bias
+    a = np.dot(W.T,X) + bias
     Y = 1.0 / (1 + np.exp(-1.0*a))
     return Y

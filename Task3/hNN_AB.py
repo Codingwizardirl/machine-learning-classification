@@ -32,14 +32,20 @@ def hNN_AB(X):
     Y7 = hNeuron(Z7, X)
     Y8 = hNeuron(Z8, X)
 
+    # Weights for logical operation neurons
+    And= np.array([-1.5, 1, 1])
+    Not = np.array([0, -1])
+
     X_A = np.vstack((Y1, Y2, Y3, Y4))
     X_B = np.vstack((Y5, Y6, Y7, Y8))
-    # Results of point being in A
-    Y_A = hNeuron(Z9, X_A).astype(bool)
-    # Results of point being outside of B
-    Y_B = ~hNeuron(Z9, X_B).astype(bool)
+    # Result of points being in A
+    Y_A = hNeuron(Z9, X_A)
+    # Result of points being in B
+    Y_B = hNeuron(Z9, X_B)
+    # Result of points being outside of B
+    Y_B = hNeuron(Not, Y_B[np.newaxis,:])
 
-    # Result of point being in A but not in B
-    Y = np.logical_and(Y_A, Y_B).astype(int)
+    Y_AB = np.vstack((Y_A,Y_B))
+    Y = hNeuron(And, Y_AB)
 
     return Y
