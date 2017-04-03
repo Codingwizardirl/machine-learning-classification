@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca5ede85-7fc1-406f-a00c-4f2b61831387" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/hNN_AB.py" afterPath="$PROJECT_DIR$/Task3/hNN_AB.py" />
-    </list>
+    <list default="true" id="ca5ede85-7fc1-406f-a00c-4f2b61831387" name="Default" comment="" />
     <ignored path="cw2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +76,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_regions_hNN_A.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gaussian_d100_full.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Task2/gaussian_d100_full.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="80" column="69" lean-forward="true" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_regions_hNN_A.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="777">
@@ -89,6 +95,26 @@
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1491176424371" expanded="true" signature="687:1058" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compute_pca.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task2/compute_pca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1586">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_pca.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task2/result_pca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -906,14 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task2/result_pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task2/mu_with_fancy_hats.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -930,28 +948,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task2/gaussian_d100_full.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task2/allEvecs.out">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="444">
           <caret line="0" column="1501" lean-forward="false" selection-start-line="0" selection-start-column="1501" selection-end-line="0" selection-end-column="1501" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task2/compute_pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,6 +1039,30 @@
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1491176424371" expanded="true" signature="687:1058" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task2/result_pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task2/compute_pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task2/gaussian_d100_full.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="80" column="69" lean-forward="true" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
