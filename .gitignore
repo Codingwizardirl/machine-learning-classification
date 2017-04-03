@@ -88,5 +88,6 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# File too large for Github
-/Task2/allEvecs.out
+# Files too large for Github
+*.mat
+*.out
