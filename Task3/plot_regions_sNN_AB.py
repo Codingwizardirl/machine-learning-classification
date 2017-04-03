@@ -10,8 +10,8 @@ yplot = np.linspace(0,10,2000)
 xx, yy = np.meshgrid(xplot, yplot)
 gridX = np.vstack((xx.ravel(), yy.ravel()))
 
-# Classify the points and reshape the result to fit the plot function
-data = sNN_AB(gridX,90,30)
+# Classify the points and reshape the result to fit the plot function.
+data = sNN_AB(gridX)
 data = data.reshape((xplot.shape[0], yplot.shape[0]))
 
 # Setup the plot title and axis

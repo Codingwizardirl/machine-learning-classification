@@ -1,11 +1,16 @@
 import numpy as np
 from sNeuron import sNeuron
-def sNN_AB(X, multiplierA=90,multiplierB=2):
+def sNN_AB(X):
     # Task 3.8
     #  X: data matrix of N-by-D
         #  Y: output vector of N-by-1
-    # Weight vectors for first layer perceptrons
 
+    #  multiplierA: scalar to apply to all weight vectors for PolygonA
+    #  multiplierB: scalar to apply to all weight vectors for PolygonB
+    multiplierA = 50
+    multiplierB = 30
+
+    # Weight vectors for first layer perceptrons for
     Z1 = np.array([-3.325, -0.05, 1])*multiplierA
     Z2 = np.array([8.5, -1, 0])*multiplierA
     Z3 = np.array([303.0 / 56, 11.0 / 28, -1])*multiplierA
@@ -18,7 +23,7 @@ def sNN_AB(X, multiplierA=90,multiplierB=2):
 
 
     #  Weight vector for second layer perceptron
-    Z9 = np.array([-3.5, 1, 1, 1, 1])*5.6
+    Z9 = np.array([-3.5, 1, 1, 1, 1])*multiplierB
 
     # Outputs from first layer for shape A
     Y1 = sNeuron(Z1, X)
@@ -39,9 +44,9 @@ def sNN_AB(X, multiplierA=90,multiplierB=2):
     X_A = np.vstack((Y1, Y2, Y3, Y4))
     X_B = np.vstack((Y5, Y6, Y7, Y8))
     # Result of points being in A
-    Y_A = sNeuron(Z9, X_A).astype(bool)
+    Y_A = sNeuron(Z9, X_A)
     # Result of points being in B
-    Y_B = sNeuron(Z9, X_B).astype(bool)
+    Y_B = sNeuron(Z9, X_B)
     # Result of points being outside of B
     Y_B = sNeuron(Not, Y_B[np.newaxis, :])
 
