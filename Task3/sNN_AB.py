@@ -8,7 +8,7 @@ def sNN_AB(X):
     #  multiplierA: scalar to apply to all weight vectors for PolygonA
     #  multiplierB: scalar to apply to all weight vectors for PolygonB
     multiplierA = 50
-    multiplierB = 30
+    multiplierB = 15
 
     # Weight vectors for first layer perceptrons for
     Z1 = np.array([-3.325, -0.05, 1])*multiplierA

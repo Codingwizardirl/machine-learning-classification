@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ca5ede85-7fc1-406f-a00c-4f2b61831387" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task1/MyConfusionMatrix.py" afterPath="$PROJECT_DIR$/Task1/MyConfusionMatrix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task1/kmc8.py" afterPath="$PROJECT_DIR$/Task1/kmc8.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task1/visualize_and_preprocess.py" afterPath="$PROJECT_DIR$/Task1/visualize_and_preprocess.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task2/classification_performance.py" afterPath="$PROJECT_DIR$/Task2/classification_performance.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task2/compute_pca.py" afterPath="$PROJECT_DIR$/Task2/compute_pca.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task2/gaussian_d100_full.py" afterPath="$PROJECT_DIR$/Task2/gaussian_d100_full.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task2/result_pca.py" afterPath="$PROJECT_DIR$/Task2/result_pca.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/plot_regions_sNN_AB.py" afterPath="$PROJECT_DIR$/Task3/plot_regions_sNN_AB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task3/sNN_AB.py" afterPath="$PROJECT_DIR$/Task3/sNN_AB.py" />
     </list>
     <ignored path="cw2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +20,7 @@
     <SUITE FILE_PATH="coverage/cw2$gaussian_d100_full.coverage" NAME="gaussian_d100_full Coverage Results" MODIFIED="1491268329216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task2" />
     <SUITE FILE_PATH="coverage/cw2$MyConfusionMatrix.coverage" NAME="MyConfusionMatrix Coverage Results" MODIFIED="1490480884684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task1" />
     <SUITE FILE_PATH="coverage/cw2$compute_pca.coverage" NAME="compute_pca Coverage Results" MODIFIED="1490882447368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task2" />
-    <SUITE FILE_PATH="coverage/cw2$plot_regions_sNN_AB.coverage" NAME="plot_regions_sNN_AB Coverage Results" MODIFIED="1491251054445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task3" />
+    <SUITE FILE_PATH="coverage/cw2$plot_regions_sNN_AB.coverage" NAME="plot_regions_sNN_AB Coverage Results" MODIFIED="1491324290633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task3" />
     <SUITE FILE_PATH="coverage/cw2$ival_test.coverage" NAME="ival_test Coverage Results" MODIFIED="1491258465396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task1" />
     <SUITE FILE_PATH="coverage/cw2$classification_performance.coverage" NAME="classification_performance Coverage Results" MODIFIED="1491269538541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task2" />
     <SUITE FILE_PATH="coverage/cw2$hNN_A.coverage" NAME="hNN_A Coverage Results" MODIFIED="1491165783961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task3" />
@@ -45,70 +39,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="hNN_A.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task3/hNN_A.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="105" lean-forward="false" selection-start-line="6" selection-start-column="105" selection-end-line="6" selection-end-column="105" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hNN_AB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task3/hNN_AB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_regions_hNN_A.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_regions_hNN_AB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_AB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="plot_regions_sNN_AB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task3/plot_regions_sNN_AB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sNeuron.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task3/sNeuron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="629">
+              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,40 +54,8 @@
       <file leaf-file-name="sNN_AB.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Task3/sNN_AB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hNN_A_weights.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task3/hNN_A_weights.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result_pca.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task2/result_pca.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hNeuron.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task3/hNeuron.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -180,11 +86,9 @@
         <option value="$PROJECT_DIR$/visualize_and_preprocess.py" />
         <option value="$PROJECT_DIR$/task3_data.txt" />
         <option value="$PROJECT_DIR$/Task3/hNN_A_weights.txt" />
-        <option value="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Task3/sNeuron.py" />
         <option value="$PROJECT_DIR$/Task3/plot_regions_hNN_AB.py" />
-        <option value="$PROJECT_DIR$/Task3/sNN_AB.py" />
         <option value="$PROJECT_DIR$/Task1/MyKmeans.py" />
         <option value="$PROJECT_DIR$/Task1/ival_test.py" />
         <option value="$PROJECT_DIR$/Task2/performance_results.txt" />
@@ -198,7 +102,9 @@
         <option value="$PROJECT_DIR$/Task2/classification_performance.py" />
         <option value="$PROJECT_DIR$/Task2/gaussian_d100_full.py" />
         <option value="$PROJECT_DIR$/Task2/result_pca.py" />
+        <option value="$PROJECT_DIR$/Task3/plot_regions_hNN_A.py" />
         <option value="$PROJECT_DIR$/Task3/plot_regions_sNN_AB.py" />
+        <option value="$PROJECT_DIR$/Task3/sNN_AB.py" />
       </list>
     </option>
   </component>
@@ -319,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classification_performance">
+  <component name="RunManager" selected="Python.plot_regions_sNN_AB">
     <configuration default="false" name="plot_regions_sNN_AB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -606,11 +512,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.classification_performance" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gaussian_d100_full" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kmc8" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ival_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plot_regions_sNN_AB" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_regions_sNN_AB" />
+        <item index="1" class="java.lang.String" itemvalue="Python.classification_performance" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gaussian_d100_full" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kmc8" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ival_test" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -654,11 +560,11 @@
     <frame x="3840" y="-36" width="3360" height="2136" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14761905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17619048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33051297" sideWeight="0.5011905" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40243256" sideWeight="0.49880952" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40243256" sideWeight="0.49880952" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -972,10 +878,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task2/gaussian_d100_full.py">
+    <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_AB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="666">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/hNN_AB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/hNN_A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="105" lean-forward="false" selection-start-line="6" selection-start-column="105" selection-end-line="6" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/sNeuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/hNN_A_weights.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -998,73 +952,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/hNN_A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="105" lean-forward="false" selection-start-line="6" selection-start-column="105" selection-end-line="6" selection-end-column="105" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/hNN_A_weights.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/hNN_AB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/plot_regions_hNN_AB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task3/plot_regions_sNN_AB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="629">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/sNeuron.py">
+    <entry file="file://$PROJECT_DIR$/Task2/gaussian_d100_full.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="-1443">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task3/sNN_AB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="333">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
