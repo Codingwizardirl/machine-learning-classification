@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
-import matplotlib.patches as mpatches
 from sNN_AB import sNN_AB
 
 # Generate points between 0 and 10 to classify

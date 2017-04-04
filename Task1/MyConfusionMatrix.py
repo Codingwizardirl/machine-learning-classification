@@ -1,4 +1,3 @@
-from visualize_and_preprocess import train_x, train_y
 import numpy as np
 
 def MyConfusionMatrix(y_actual, y_predicted):

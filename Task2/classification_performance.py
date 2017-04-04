@@ -1,3 +1,7 @@
+# For module imports from other tasks
+import sys
+sys.path.append("..")
+
 import numpy as np
 from Task1.visualize_and_preprocess import train_x, train_y, test_x, test_y
 from gaussian_d100_full import trainAndTest

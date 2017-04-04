@@ -1,4 +1,8 @@
 import scipy.io
+# For module imports from other tasks
+import sys
+sys.path.append("..")
+
 from compute_pca import compute_pca
 from Task1.visualize_and_preprocess import train_x
 

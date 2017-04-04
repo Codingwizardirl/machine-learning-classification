@@ -1,4 +1,7 @@
-import pandas as pd
+# For module imports from other tasks
+import sys
+sys.path.append("..")
+
 from compute_pca import my_cov
 import numpy as np
 import scipy.io
@@ -6,6 +9,7 @@ from Task1.MyKmeans import my_mean
 from Task1.visualize_and_preprocess import train_x, train_y, test_x, test_y
 from Task1.MyConfusionMatrix import MyConfusionMatrix
 from compute_pca import compute_pca
+
 
 def gaussianClassifier(mu, covar, X):
     '''

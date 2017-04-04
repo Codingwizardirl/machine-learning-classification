@@ -1,3 +1,7 @@
+# For module imports from other tasks
+import sys
+sys.path.append("..")
+
 import numpy as np
 from Task1.MyKmeans import my_mean
 
