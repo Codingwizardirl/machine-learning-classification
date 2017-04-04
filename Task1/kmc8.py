@@ -24,8 +24,7 @@ confusion_matrix = MyConfusionMatrix(train_y, idx)
 scipy.io.savemat('result_confusion_matrix.mat', {'confusion_matrix': confusion_matrix})
 
 # Pretty printing for the confusion matrix using Pandas. Used only for the report.
-# Actual implementation uses my own function.
-# y_actu = pd.Series(train_y.ravel(), name='Actual')
-# y_pred = pd.Series(idx.ravel(), name='Predicted')
-# df_confusion = pd.crosstab(y_actu, y_pred)
-# print df_confusion
+# y_actual = pd.Index(np.arange(1,6,1), name="Actual")
+# y_pred = pd.Index(np.arange(1,9,1), name="Predicted")
+# df = pd.DataFrame(data = confusion_matrix.astype(int), index = y_actual, columns=y_pred)
+# print df

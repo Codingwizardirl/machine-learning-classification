@@ -2,9 +2,12 @@ import numpy as np
 from hNeuron import hNeuron
 
 def hNN_A(X):
-    # Task 3.4
-    #  X: data matrix of N-by-D
-    #  Y: output vector of N-by-1
+    '''
+    Task 3.4
+    Function immitating functionality of neural network classifying a polygon using step function neurons
+    :param X: data matrix of N-by-D
+    :return: Y: output vector of N-by-1
+    '''
 
     # Weight vectors for first layer perceptrons
     Z1 = np.array([-3.325, -0.05, 1])

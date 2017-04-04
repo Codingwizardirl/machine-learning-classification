@@ -12,11 +12,6 @@ def compute_pca(X):
             (Note that the i-th columns of Evecs should corresponds to the i-th element in EVals)
     '''
 
-    # TO-DO
-    EVecs = None
-    EVals = None
-
-    # CHANGE TO N-1
     covariance_matrix = my_cov(X,1)
     (EVals, EVecs) = np.linalg.eig(covariance_matrix)
 

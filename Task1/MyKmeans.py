@@ -16,7 +16,6 @@ def MyKmeans(X,k,initialCentres,maxIter = 500):
                             error after i iterations, (L+1) x 1 vector
     '''
 
-    # TO-DO
     N = X.shape[0]
     D = np.zeros((k, N))
     C = initialCentres
@@ -28,7 +27,6 @@ def MyKmeans(X,k,initialCentres,maxIter = 500):
              D[c] = square_dist(X, C[c])
 
         idx = np.argmin(D, axis=0)
-        sse = sumSquareError(X, C, idx)
         SSE.append(sumSquareError(X, C, idx))
 
      #    Update clusters
@@ -63,4 +61,3 @@ def sumSquareError(U, clusters, idx):
         sse += np.sum((U[idx == c] - clusters[c])**2)
     sse /= N
     return sse
-  # sse += np.sum(np.sqrt(np.sum((U[idx == c] - clusters[c])**2,axis=1)))

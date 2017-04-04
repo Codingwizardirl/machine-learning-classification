@@ -2,8 +2,13 @@ import numpy as np
 from hNeuron import hNeuron
 
 def hNN_AB(X):
-    # Task 3.6
-    #  X: data matrix of N-by-D
+    '''
+    Task 3.6
+    :param X: data matrix of N-by-D
+    :return: 
+    '''
+    #
+    #
     #  Y: output vector of N-by-1
 
     # Weight vectors for first layer perceptrons
