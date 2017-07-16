@@ -91,3 +91,7 @@ ENV/
 # Files too large for Github
 *.mat
 *.out
+
+# CW specific
+
+reports/
